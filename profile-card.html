@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+      body{
+        padding:0px;
+        margin:0px;
+
+      }
+
+      .profile-card {
+        display:flex;        
+        position:relative;
+        top: 230px;
+        left: 720px;
+        width: 500px;
+        height: 500px; 
+        background-color:rgb(214, 147, 147);       
+        border-radius:10px;
+        box-shadow: 0 5px 10px rgb(170, 170, 170) ;
+        justify-content: center;
+
+      }
+
+      .bg-bar{
+        width:500px;
+        height:100px;
+        background-color: rgb(129, 64, 64);
+        position:fixed;
+        border-top-left-radius: 10px;
+        border-top-right-radius:10px;
+        
+        
+      }
+      .img-div{
+        width:100px;
+        height:100px;
+
+      }
+      img{
+        border-radius:50px;
+        
+      }
+      .profile-img{
+        width:100%;
+        height:100%;
+        border: 5px solid rgb(238, 236, 236);
+        background-color:rgb(117, 75, 75);
+        position: relative;  
+        top:50px; 
+        transition: all 0.15s; 
+
+      }
+
+
+
+      .name-div{
+        color:rgb(238, 236, 236);
+        position:absolute;
+        top:150px;
+        left:182px;
+        font-family:Pacifico ;
+        font-size: 20px;       
+
+      }
+      .icons-div{
+        display:flex;
+        width:200px;
+        height:50px;
+        
+        position:absolute;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        top:250px;
+        
+
+        
+      }
+
+      .insta-icon{
+        width:30px;
+        height:30px;
+        padding:5px;
+        background-color:rgb(238, 236, 236);
+        transition: all 0.15s;
+
+      }
+
+      .insta-icon:hover{
+        background-color: rgb(170, 98, 98);
+        transform: scale(1.3);
+        /*
+        width:35px;
+        height:35px;
+        */
+        opacity:0.8;
+      }
+
+
+
+
+
+    </style>
+
+    <title>
+      Profile card
+    </title>
+  </head>
+  <body>
+    <main>
+      <div class="profile-card">
+        <div class="bg-bar">
+
+        </div>
+        <div class="img-div">
+          <img src="/profile-card/images/kaoruko waguri.png" class="profile-img">
+          <div class="name-div">
+          <p class="name">Kaoruko Waguri</p>
+        </div>
+        </div>
+        <div class="icons-div"> 
+          <div class="icon-div">
+            <a href="www.instagram.com" > 
+              <img src="/profile-card/images/instagram.png" class="insta-icon" >
+              
+            </a> 
+          </div>
+
+          <div class="icon-div">
+            <a href="www.pinterest.com" >
+            <img src="/profile-card/images/pinterest.png" class="insta-icon" >
+            </a>
+          </div>
+              
+            
+          <div class="icon-div">
+            <a href="www.whatsapp.com" > 
+              <img src="/profile-card/images/whatsapp.png" class="insta-icon" >
+            </a>
+          </div>
+              
+            
+        <div class="icon-div">
+            <a href="www.linkedin.com" > 
+              <img src="/profile-card/images/linkedin.png" class="insta-icon" >
+              
+            </a>
+          </div>
+          
+        </div>
+
+
+          
+        </div>
+        
+        
+      </div>
+
+    </main>
+  </body>
+</html>
